@@ -22,7 +22,7 @@ This project involves creating a simple lock system using the ESP32 microcontrol
 4. Follow the on-screen instructions in the app to configure your lock.
 
 ## Usage
-Once the setup is complete, you can lock and unlock the mechanism directly from your mobile device.
+Once the setup is complete, you can lock and unlock the mechanism directly from your web browser.
 
 ## Conclusion
 This simple ESP32 lock project is perfect for demonstrating basic IoT principles and can be further expanded upon for advanced features such as security notifications.
