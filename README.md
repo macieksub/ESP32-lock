@@ -26,6 +26,3 @@ Once the setup is complete, you can lock and unlock the mechanism directly from 
 
 ## Conclusion
 This simple ESP32 lock project is perfect for demonstrating basic IoT principles and can be further expanded upon for advanced features such as security notifications.
-
-## License
-This project is licensed under the MIT License.
