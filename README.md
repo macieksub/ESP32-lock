@@ -1,28 +1,21 @@
-# ESP32 Lock Project
+# Smart Lock ESP32 (University Project)
 
-## Overview
-This project involves creating a simple lock system using the ESP32 microcontroller. The goal is to demonstrate how to use the ESP32 for IoT applications, focusing on remote-controlled locking mechanisms.
+This is a simple ESP32-based smart lock project with keypad and web access.
 
-## Components Needed
-- ESP32 Development Board  
-- Servo Motor  
-- Jumper Wires  
-- Breadboard  
-- Power Source
+## Project Overview
 
-## Features
-- Remote control via mobile app  
-- Real-time status updates  
-- Simple and user-friendly interface
+The system controls a door lock using a servo motor.  
+Users can open the lock in two ways:
+1. By entering a PIN on a 4x4 keypad
+2. Through a local web panel after login
 
-## Setup Instructions
-1. Connect the servo motor to the ESP32 according to the circuit diagram provided in the repository.
-2. Upload the provided code to the ESP32 using the Arduino IDE.
-3. Download the mobile app to control the lock.
-4. Follow the on-screen instructions in the app to configure your lock.
+User accounts and permissions are stored in Firebase Realtime Database.
 
-## Usage
-Once the setup is complete, you can lock and unlock the mechanism directly from your web browser.
+## Main Features
 
-## Conclusion
-This simple ESP32 lock project is perfect for demonstrating basic IoT principles and can be further expanded upon for advanced features such as security notifications.
+- PIN-based access from keypad
+- Web login with USER/ADMIN roles
+- Door open/close status in web panel
+- Automatic lock close after a short delay
+- Access logs saved to Firebase
+- Emergency master PIN support
